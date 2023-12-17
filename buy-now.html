@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>BUY NOW</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inder%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lucida+Calligraphy%3A400"/>
+  <link rel="stylesheet" href="buy-now.css"/>
+</head>
+<script>
+  $(document).ready(function () {
+      function validateFname(firstname) {
+                var firstnamePattern = /^[A-Za-z ]{2,30}$/;
+                return firstnamePattern.test(firstname);
+            }
+      function validateMobile(mobilenumber) {
+                var mobilePattern = /^[0-9 ]{10}$/;
+                return mobilePattern.test(mobilenumber);
+            }
+      function validateAddrees(address) {
+                var addressPattern = /^[0-9 ]{10}$/;
+                return addressPattern.test(address);
+            }
+      
+      
+
+
+            $('#reg').submit(function (e) {
+                e.preventDefault();
+                var fn = $('#fn1').val();
+                if (fn == "") {
+                    $('#fn1_error').html("Firstname is required");
+                    $('#fn1_error').css('color', 'red');
+                    $('#fullname_status').html("");
+                    is_valid = false;
+
+                } else {
+                    if (validateFname(fn)) {
+                        $('#fullname_status').html("Fullname:: " + fn);
+                        $('#fullname_status').css('color', 'green');
+                        $('#fn1_error').html("");
+                    } else {
+                        $('#fn1_error').html(
+                            "Name contains only letters"
+                        );
+                        $('#fn1_error').css('color', 'red');
+                        $('#fullname_status').html(
+                            "");
+                        is_valid = false;
+                    }
+
+                }
+
+                var mn = $('#mn').val();
+                if (mn == "") {
+                    $('#mn_error').html("mobile number is required");
+                    $('#mn_error').css('color', 'red');
+                    $('#mn_status').html("");
+                    is_valid = false;
+
+                } else {
+                    if (validateMobile(mn)) {
+                        $('#mn_status').html("Lastname:: " + mn);
+                        $('#mn_status').css('color', 'green');
+                        $('#mn_error').html("");
+                    } else {
+                        $('#mn_error').html(
+                            "mobile contains 10 digits"
+                        );
+                        $('#mn_error').css('color', 'red');
+                        $('#mn_status').html(
+                            "");
+                        is_valid = false;
+                    }
+
+                }
+                var is_valid = true;
+                var ad = $('#ad').val();
+                if (ad == "") {
+                    $('#ad_error').html("Address is required Field");
+                    $('#ad_error').css('color', 'red');
+                    $('#ad_status').html("");
+                    is_valid = false;
+                } else {
+                    if (validateAddrees(ad)) {
+                        $('#ad_status').html("Email:: " + ad);
+                        $('#ad_status').css('color', 'green');
+                        $('#ad_error').html("");
+                    } else {
+                        $('#ad_error').html("adreess is not valid");
+                        $('#ad_error').css('color', 'red');
+                        $('#ad_status').html("");
+                    }
+
+                }
+               
+
+                if (is_valid) {
+                    this.submit();
+                }
+            });
+        });
+</script>
+<body>
+<form action="index.html" method="get" id="reg">
+<div class="buy-now-k6Z">
+  <p class="perfume-store-Gah">Perfume Store</p>
+  <div class="auto-group-xx41-kkm">
+    <a href="index.html" class="home-Tv5">Home</a>
+    <a href="man-section.html" class="man-section-zf7">Man Section</a>
+    <a href="woman-section.html" class="women-section-vYm">Women Section</a>
+    <a href="login.html" class="login-4ey">Login </a>
+    <a href="about-us.html" class="about-us-PhF">About Us</a>
+    <a href="buy-now.html" class="buy-now-WWy">Buy Now</a>
+  </div>
+  <div class="auto-group-9xv1-317">
+    <p class="c-a-r-t-9pq">C A R T</p>
+    <p class="contact-4B7">Contact</p>
+  </div>
+  <p class="enter-mobile-number-n77">Enter Mobile Number</p>
+  <div class="auto-group-geh3-UEq">
+    <img class="pp1-1-QPP" src="pp1-1-66h.png"/>
+    <div class="auto-group-47im-9Ly">
+      <div class="auto-group-mhqo-Uu3">
+        <p class="ceo-man-luxury-perfume-100-ml-pT7">CEO Man Luxury Perfume - 100 Ml</p>
+        <p class="item-2999-jpy">$ 29.99</p>
+        <input type="number" placeholder="-    1    +" class="auto-group-tpaq-Gpu">
+      </div>
+      <div class="auto-group-nkdb-vuT">
+        <input type="text" name="mn" id="mn" placeholder="+91 | Mobile Number" class="auto-group-6gsq-Uvy">
+        <span id="mn_error">
+        </span>
+        <p class="enter-full-name-vHB">Enter Full Name </p>
+        <input type="text" name="fn" id="fn1" placeholder="Enter Name" class="auto-group-hrkj-eDB">
+        <span id="fn1_error"></span>
+      </div>
+    </div>
+  </div>
+  <p class="hurray-bogo-is-applied--JoX">Hurray!🥳 BOGO is applied 🎉</p>
+  <div class="auto-group-mnxo-PKB">
+    <img class="pp1-2-6zH" src="pp1-2-81s.png"/>
+    <div class="auto-group-rtez-3ed">
+      <div class="auto-group-rtzf-BVw">
+        <p class="goat-man-perfume-100-ml-iEy">G.O.A.T Man Perfume - 100 Ml</p>
+        <p class="item-000-EUD">$ 0.00</p>
+        <input type="number" placeholder="-    1    +" class="auto-group-xpxh-Acm">
+      </div>
+      <input type="text" name="ad" id="ad" placeholder="Enter Address" class="auto-group-p8vh-2ey">
+      <span id="ad_error"></span>
+    </div>
+  </div>
+  <input type="submit" id="submit1" value="BUY NOW" class="auto-group-svem-V2m">
+  <p class="enter-address-NsF">Enter Address</p>
+  <p class="cash-on-delivery-only-UvH">Cash On Delivery Only</p>
+</div>
+</form>
+</body>

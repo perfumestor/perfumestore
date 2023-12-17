@@ -1,0 +1,280 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 100%;
+}.about-us-kwF {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.about-us-kwF .auto-group-vvqq-717 {
+  box-sizing: border-box;
+  padding: 4.2rem 41rem 5.4rem 36.5rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-vvqq-717 .perfume-store-e13 {
+  margin: 0rem 4.2rem 2.6rem 0rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  font-style: italic;
+  color: #000000;
+  font-family: Lucida Calligraphy, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-vvqq-717 .auto-group-nfxr-Kss {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-vvqq-717 .auto-group-nfxr-Kss .home-gCd {
+  margin-right: 5.7rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Inder, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-vvqq-717 .auto-group-nfxr-Kss .man-section-b4h {
+  margin-right: 4.4rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Inder, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-vvqq-717 .auto-group-nfxr-Kss .women-section-7oj {
+  margin-right: 4.8rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Inder, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-vvqq-717 .auto-group-nfxr-Kss .login-Ff3 {
+  margin-right: 4.2rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Inder, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-vvqq-717 .auto-group-nfxr-Kss .about-us-ney {
+  margin-right: 4.1rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #de0000;
+  font-family: Inder, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-vvqq-717 .auto-group-nfxr-Kss .buy-now-Keu {
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Inder, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-4vly-req {
+  box-sizing: border-box;
+  padding: 11.2rem 10rem 13.9rem 10rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #423e3b;
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-4vly-req .auto-group-dvsh-a53 {
+  margin: 0rem 0rem 5.9rem 0.2rem;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-4vly-req .auto-group-dvsh-a53 .bestsellers-h9f {
+  margin: 0.2rem 14.7rem 0rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Inder, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-4vly-req .auto-group-dvsh-a53 .information-cXX {
+  margin: 0.2rem 14.9rem 0rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Inder, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-4vly-req .auto-group-dvsh-a53 .support-js3 {
+  margin-right: 14rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Inder, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-4vly-req .auto-group-dvsh-a53 .contact-us-5vu {
+  margin-right: 17rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Inder, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-4vly-req .auto-group-dvsh-a53 .exclusive-dSd {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Inder, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-4vly-req .auto-group-jzvf-yFb {
+  margin-bottom: 6.1rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-4vly-req .auto-group-jzvf-yFb .ultimate-perfume-box-perfume-gift-set-for-men-perfume-gift-set-for-woman-dark-circles-perfume-for-man-7Mo {
+  margin-right: 6.1rem;
+  max-width: 18.9rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Inder, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-4vly-req .auto-group-jzvf-yFb .blogs-newsroom-term-condition-privacy-policy-refund-and-return-1CH {
+  margin-right: 12.2rem;
+  max-width: 13.8rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Inder, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-4vly-req .auto-group-jzvf-yFb .contact-us-order-tracking-all-products-faq-sitemap-7m7 {
+  margin-right: 9.2rem;
+  max-width: 11.2rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Inder, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-4vly-req .auto-group-jzvf-yFb .office-location-plot-no-417-udyog-vihar-phase-iii-gurgaon-haryana-india-shopbellavitaorganiccom-91-9311732440-timing-10-00-am-to-7-00-pm-monday-to-sunday-SHb {
+  margin-right: 4.6rem;
+  max-width: 22rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Inder, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-4vly-req .auto-group-jzvf-yFb .auto-group-wsf3-gxd {
+  margin-top: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-4vly-req .auto-group-jzvf-yFb .auto-group-wsf3-gxd .auto-group-2pah-e8m {
+  margin-bottom: 2.6rem;
+  box-sizing: border-box;
+  padding: 0.6rem 1.5rem 0.8rem 1.5rem;
+  width: 26.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Inder, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #ffffff;
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-4vly-req .auto-group-jzvf-yFb .auto-group-wsf3-gxd .sign-up-here-to-get-the-latest-news-updates-and-special-offers-delivered-to-your-inbox-plus-youll-be-the-first-to-know-about-our-discounts-g5T {
+  max-width: 34.2rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Inder, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-4vly-req .most-searched-keywords-k5K {
+  margin: 0rem 0rem 6.8rem 0.2rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Inder, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.about-us-kwF .auto-group-4vly-req .buy-1-get-1-free-bogo-diwali-gifts-for-family-diwali-gift-box-diwali-gifts-for-friends-diwali-gift-for-sister-diwali-gifts-under-500-diwali-gifts-under-1000-luxury-diwali-gift-ideas-diwali-gift-for-parents-diwali-premium-gifts-diwali-gifts-2023-birthday-gift-for-women-girls-diwali-gift-ideas-wedding-gifts-for-couples-gifts-for-men-under-500-gifts-for-women-under-500-birthday-gift-for-men-boys-corporate-gifts-diwali-gifts-for-family-and-friends-perfume-best-perfume-for-men-perfume-for-men--duo {
+  margin-left: 0.2rem;
+  max-width: 127.5rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.16rem;
+  color: #ffffff;
+  font-family: Inder, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+
+a{
+  text-decoration: none;
+}

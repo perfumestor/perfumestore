@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>LOGIN</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lucida+Calligraphy%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inder%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Century%3A400"/>
+  <link rel="stylesheet" href="login.css"/>
+  <script>
+    $(document).ready(function () {
+   
+      function validateEmail(email) {
+                var emailPattern = /^[\w\.]+@([\w]+\.)+[\w]{2,4}$/;;
+                return emailPattern.test(email);
+            }
+      function validatePassword(password) {
+                var passwordPattern =
+                    /^(?=.[0-9])(?=.[a-z])(?=.[A-Z])(?=.[A-Za-z0-9])(?!.*[/s]).{8,20}$/;
+                return passwordPattern.test(password);
+            }
+
+
+            $('#reg').submit(function (e) {
+                e.preventDefault();
+
+                var em = $('#email1').val();
+                if (em == "") {
+                    $('#email_error').html("Email is required Field");
+                    $('#email_error').css('color', 'red');
+                    $('#email_status').html("");
+                    is_valid = false;
+                } else {
+                    if (validateEmail(em)) {
+                        $('#email_status').html("Email:: " + em);
+                        $('#email_status').css('color', 'green');
+                        $('#email_error').html("");
+                    } else {
+                        $('#email_error').html("Email is not valid");
+                        $('#email_error').css('color', 'red');
+                        $('#email_status').html("");
+                    }
+
+                }
+                var is_valid = true;
+                var pwd = $('#pwd1').val();
+                if (pwd == "") {
+                    $('#pwd_error').html("Password is required Field");
+                    $('#pwd_error').css('color', 'red');
+                    $('#pwd_status').html("");
+                    is_valid = false;
+                } else {
+                    if (validatePassword(pwd)) {
+                        $('#pwd_status').html("Password::" + pwd);
+                        $('#pwd_status').css('color', 'green');
+                        $('#pwd_error').html("");
+                    } else {
+                        $('#pwd_error').html(
+                            "Password must contain at least uppercase and lowercase letter, digit , special symbol."
+                        );
+                        $('#pwd_error').css('color', 'red');
+                        $('#pwd_status').html("");
+                        is_valid = false;
+                    }
+
+                }
+              
+
+                if (is_valid) {
+                    this.submit();
+                }
+            });
+        });
+  </script>
+</head>
+<body>
+<form action="home.html" method="get" id="reg">
+<div class="login-CXo">
+  <p class="perfume-store-Le1">Perfume Store</p>
+  <div class="auto-group-2mch-SBF">
+    <a href="index.html" class="home-xQV">Home</a>
+    <a href="man-section.html" class="man-section-5ED">Man Section</a>
+    <a href="woman-section.html" class="women-section-CJq">Women Section</a>
+    <a href="login.html" class="login-LA9">Login </a>
+    <a href="about-us.html" class="about-us-Un9">About Us</a>
+    <a href="buy-now.html" class="buy-now-cNZ">Buy Now</a>
+  </div>
+  <p class="login-ML9">Login</p>
+  <div class="auto-group-uqwz-U9s">
+    <p class="dont-have-an-account-yet--ipu">Don’t have an account yet ?  </p>
+    <a href="#" class="create-account-RUR">Create Account</a>
+  </div>
+  <input type="text" placeholder="Email" name="em" id="email1"  class="auto-group-gyms-YZ3">
+  <span id="email_error"></span>
+  <input type="text" placeholder="Password" name="pwd" id="pwd1" class="auto-group-e68v-zA9">
+  <span id="pwd_error"></span>
+  <div class="auto-group-3ekv-EaH">
+    <input type="submit" id="submit1" value="Sign In" class="auto-group-2nrh-ZsT">
+    <a href="index.html" class="auto-group-bwq1-FkH">Return to store</a>
+  </div>
+  <a href="#" class="forget-your-password--8p5">Forget Your Password ?</a>
+</div>
+</form>
+</body>
